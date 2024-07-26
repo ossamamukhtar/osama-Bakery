@@ -1,0 +1,153 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  --main: rgb(142, 119, 84);
+
+}
+/****************END HOME  ****************/
+nav {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.navbar-toggler-icon  {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28142, 119, 84, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+button.navbar-toggler.bg-light-subtle{
+
+   border: solid 2px var(--main);
+}
+ .navbar-collapse ul>li{
+text-align: center;
+
+ }
+header .back {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/drew-coffman-1872.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+header .back .cover {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+header .back .cover h1 {
+  font-weight: bold;
+  font-size: 5.625em;
+  padding: 0.25em;
+}
+
+header .back .cover .btn1 {
+  background-color: var(--main) !important;
+  padding: 15px 20px;
+  color: white !important ;
+  border: 1px solid rgb(142, 119, 84);
+  transition: all 0.5s;
+  width: 10em;
+}
+
+header .back .cover .btn2 {
+  padding: 15px 20px;
+  color: white !important ;
+  border: 1px solid white;
+  transition: all 0.5s;
+  width: 10em;
+}
+
+header .back .cover .btn2:hover {
+  background-color: var(--main);
+  border: 1px solid rgb(142, 119, 84);
+}
+
+header .back .cover .btn1:hover {
+  background-color: var(--main) !important;
+  opacity: 0.8;
+  border: 1px solid rgb(142, 119, 84);
+}
+
+/****************END HOME  ****************/
+.right_sec p {
+  margin: 0px !important;
+}
+
+i.fa-solid.fa-check {
+  border: solid 1px;
+  border-radius: 70%;
+  padding: 5px;
+}
+
+.icon .d-flex i.fa-solid.fa-headphones {
+  border: solid 1px var(--main);
+  border-radius: 70%;
+  padding: 9px;
+  background-color: var(--main);
+}
+
+.icon .d-flex p {
+  margin-bottom: 0px !important;
+}
+
+footer {
+  background-color: rgb(64, 61, 56);
+  color: #aaa;
+}
+
+.mm a {
+
+width: 150px;   
+padding: 10px;
+
+left: -6%;
+top: 30%;
+opacity: 0.6;
+text-decoration-color: var(--main);
+transition: all 0.5s;
+}
+
+.mm a:hover{
+   left: -1%;
+   opacity: 1;
+} 
+.mail i{
+   color: white !important;
+}
+
+
+
+@media  (max-width: 768px) {
+
+   nav {
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+    .mm a {
+
+      width: 150px;   
+      padding: 10px;
+      
+      left: -19%;
+      top: 30%;
+
+      }
+      
+      .mm a:hover{
+         left: -1%;
+         opacity: 1;
+      } 
+
+
+
+
+
+
+
+
+}
